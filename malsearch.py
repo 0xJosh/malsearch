@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 
 __AUTHOR__ = 'Josh Burgess'
-__VERSION__ = '0.1.1'
+__VERSION__ = 'BETA'
 
 import requests
 from bs4 import BeautifulSoup
@@ -58,11 +58,11 @@ def getHash(fname):
 
 def get_vt_info(hash):
     file_info = {
-        'hash':         hash, # hash we have used for scanning
-        'file_name':     '-', # filename of scanned file
-        'other_names':    [], # Other filenames used in wild etc.
-        'file_type':     '-', # pdf or exe?
-        'submit_date':   '-', # date of VT submission
+        'hash':         hash, 
+        'file_name':     '-', 
+        'other_names':    [], 
+        'file_type':     '-',
+        'submit_date':   '-',
         'md5':           '-', 
         'sha1':          '-',
         'sha256':        '-',
